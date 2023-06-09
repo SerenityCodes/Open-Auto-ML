@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "OpenAutoML"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+pandas = "^2.0.1"
+numpy = ">=1.22,<1.24"
+matplotlib = "^3.7.1"
+plotly = "^5.14.1"
+gym = "^0.26.2"
+tensorflow = "^2.12.0"
+stable-baselines = "^2.10.2"
+scikit-learn = "^1.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
